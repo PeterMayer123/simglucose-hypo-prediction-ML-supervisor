@@ -87,7 +87,7 @@ The final workflow is:
 
 ## Important Note
 
-`13_FINAL_Supervisor_v15.ipynb` depends on files produced by `12_Final_dataset_ML.ipynb`.
+`13_FINAL_Supervisor_v15.ipynb` depends on files produced by `12_Final_dataset_ML_model.ipynb`.
 
 If Notebook 12 has not been run successfully first, Notebook 13 will not run correctly.
 
