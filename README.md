@@ -22,7 +22,7 @@ The final implementation includes:
 
 ```text
 .
-├── 12_Final_dataset_ML.ipynb
+├── 12_Final_dataset_ML_model.ipynb
 ├── 13_FINAL_Supervisor_v15.ipynb
 ├── requirements.txt
 └── README.md
@@ -32,7 +32,7 @@ The final implementation includes:
 
 ## Notebook Overview
 
-### `12_Final_dataset_ML.ipynb`
+### `12_Final_dataset_ML_model.ipynb`
 
 Generates the final synthetic dataset, extracts CGM-based features, trains the prediction models, and performs leave-one-patient-out evaluation. This notebook also saves the trained model and supporting artefacts required for the supervisory stage.
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 Run the notebooks in the following order:
 
-1. `12_Final_dataset_ML.ipynb`
+1. `12_Final_dataset_ML_model.ipynb`
 2. `13_FINAL_Supervisor_v15.ipynb`
 
 Notebook 12 must be run first, since it generates the trained model and saved artefacts required by Notebook 13.
