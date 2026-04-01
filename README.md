@@ -85,11 +85,13 @@ The final workflow is:
 
 ---
 
-## Important Note
+## Important Notes
 
 `13_FINAL_Supervisor_v15.ipynb` depends on files produced by `12_Final_dataset_ML_model.ipynb`.
 
 If Notebook 12 has not been run successfully first, Notebook 13 will not run correctly.
+
+These notebooks are cleaned versions of the final project pipeline. Small numerical differences may occur across fresh reruns because the simulation includes stochastic CGM sensor noise during dataset generation. The overall methodology, model behaviour, and project conclusions are unchanged.
 
 ---
 
